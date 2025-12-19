@@ -1,11 +1,12 @@
 const games = [
+   
    {
     id: 2,
     title: "Winter Memories",
     image: "wintermemories.jpg",
-    description: "Winter Memories adalah sekuel langsung dari Summer Memories yang mengambil latar waktu saat liburan musim dingin. Pemain kembali berperan sebagai protagonis yang mengunjungi rumah bibi dan sepupunya di pedesaan yang kini tertutup salju. Game simulasi kehidupan dewasa ini menawarkan peningkatan besar dari pendahulunya, seperti peta yang lebih luas, karakter baru, serta fitur "Dual Heroine" yang memungkinkan interaksi intim dengan dua karakter sekaligus. Selain aktivitas harian seperti memancing es dan mengelola statistik, fokus utamanya tetap pada pengembangan hubungan romantis yang lebih mendalam dan konten eksplisit yang lebih variatif, semuanya disajikan dengan gaya pixel-art yang sangat mendetail.",
+    description: "Winter Memories adalah sekuel langsung dari Summer Memories yang mengambil latar waktu saat liburan musim dingin. Pemain kembali berperan sebagai protagonis yang mengunjungi rumah bibi dan sepupunya di pedesaan yang kini tertutup salju. Game simulasi kehidupan dewasa ini menawarkan peningkatan besar dari pendahulunya, seperti peta yang lebih luas, karakter baru, serta fitur Dual Heroine yang memungkinkan interaksi intim dengan dua karakter sekaligus. Selain aktivitas harian seperti memancing es dan mengelola statistik, fokus utamanya tetap pada pengembangan hubungan romantis yang lebih mendalam dan konten eksplisit yang lebih variatif, semuanya disajikan dengan gaya pixel-art yang sangat mendetail.",
     download: "https://1024terabox.com/s/1-ZYuFJ_CK-P8symSWTknVw"
-  }
+  },
   {
     id: 1,
     title: "Summer Memories",
@@ -15,4 +16,5 @@ const games = [
   }
   
 ];
+
 
