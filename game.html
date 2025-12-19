@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Detail Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="detail-container" id="gameDetail"></div>
+
+<script src="data.js"></script>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const gameId = params.get("id");
+
+  const game = games.find(g => g.id == gameId);
+
+  document.getElementById("gameDetail").innerHTML = `
+    <h1>${game.title}</h1>
+    <img src="${game.image}" class="detail-img">
+    <p>${game.description}</p>
+
+    <a href="${game.download}" class="download-btn" target="_blank">
+      ⬇️ Download
+    </a>
+
+    <a href="https://saweria.co/fururu02" class="donate-post-btn" target="_blank">
+      💖 Donasi
+    </a>
+  `;
+</script>
+
+</body>
+</html>
